@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200sp"
+        android:src="@drawable/gatito" />
+    //La imagen es muy grande, debes achicarla
+
+    <TextView
+        android:id="@+id/palabra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Nombre:"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Escribe aquí tu nombre"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <TextView
+        android:id="@+id/pcontrasena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Contraseña:"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Escribe aquí tu contraseña"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <TextView
+        android:id="@+id/pmatricula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Matricula:"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/matricula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Escribe aquí el número de tu matricula"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <Button
+        android:id="@+id/botonSET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Set" />
+
+    <Button
+        android:id="@+id/botonborrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="borrar" />
+    <Button
+        android:id="@+id/botonToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Toast" />
+
+</LinearLayout>

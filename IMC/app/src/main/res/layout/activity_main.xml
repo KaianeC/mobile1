@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/CelestePastel"
+    tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                android:text="Peso (Kg)"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:gravity="center"
+
+                />
+            <EditText
+                android:id="@+id/peso"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="0.7"
+                android:hint="peso (Kg)"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:background="@color/white"
+                />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="Altura (m)"
+
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:gravity="center"
+
+            />
+        <EditText
+            android:id="@+id/altura"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="0.7"
+            android:hint="altura (m)"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:background="@color/white"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/calcular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="Calcular"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/borrar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="Borrar"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/imc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:text="IMC: "
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:background="@color/AzulPastel"
+        />
+    <TextView
+        android:id="@+id/bajopeso"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:text="Bajo Peso"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:background="@color/white"
+        />
+    <TextView
+        android:id="@+id/normal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:text="Normal"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:background="@color/white"
+        />
+    <TextView
+        android:id="@+id/sobrepeso"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:text="Sobrepeso"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:background="@color/white"
+        />
+
+
+    </LinearLayout>
+

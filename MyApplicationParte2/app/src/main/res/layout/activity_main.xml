@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Nombre"
+                android:textSize="42sp"
+                />
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Escriba aquí"
+                android:inputType="text"
+                android:textSize="42sp"
+                />
+
+            <TextView
+                android:id="@+id/tvTelefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Telefono"
+                android:textSize="42sp"
+                />
+            <EditText
+                android:id="@+id/etTelefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:inputType="phone"
+                android:text="Escriba aquí"
+                android:textSize="42sp"
+                />
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="E-mail"
+                android:textSize="42sp"
+                />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:inputType="textEmailAddress"
+                android:text="Escriba aquí"
+                android:textSize="42sp" />
+
+            <TextView
+                android:id="@+id/tvContrasena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Contraseña"
+                android:textSize="42sp"
+                />
+            <EditText
+                android:id="@+id/etContrasena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:text="Escriba aquí"
+                android:textSize="42sp"
+                />
+            <TextView
+                android:id="@+id/evPalabra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Palabra"
+                android:textSize="42sp"
+                />
+            <EditText
+                android:id="@+id/etPalabra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:inputType="textAutoCorrect"
+                android:text="Escriba aquí"
+                android:textSize="42sp"
+                />
+
+            </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
